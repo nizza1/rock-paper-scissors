@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    max-width: 400px;
+    margin: 8rem auto;
+    text-align: center;
+    gap: 2em;
+    border: 1px solid rgb(107, 186, 255);
+    color: rgb(107, 186, 255);
+    background-color: rgb(49, 49, 49);
+}
+
+.rounds {
+    width: 50%;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.resultsTextTotal {
+    font-size: 1.5em;
+    padding: 0.2em;
+    border: 1px solid rgb(107, 186, 255);
+    margin: 0.2em;
+}
+
+.results {
+    border: 1px solid rgb(107, 186, 255);
+    position: relative;
+    display: flex;
+    padding: 1em;
+}
+
+.select {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+    padding: 0.5em;
+}
+
+.resultsText {
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.resultsText span {
+    color: rgb(255, 76, 76);
+}
+
+.user{
+    position: absolute;
+    left: -0.7em;
+    background-color: rgb(255, 76, 76);
+    color: aliceblue;
+}
+.comp{
+    position: absolute;
+    right: -0.7em;
+    background-color: rgb(255, 76, 76);
+    color: aliceblue;
+}
+.select button {
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgb(107, 186, 255) ;
+    border-radius: 50%;
+    padding: 0.3em;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.select button:hover {
+    transform: translateY(-0.1em);
+    transition-duration: 0.2s;
+    border: 1px solid  rgb(255, 76, 76);
+}
+
+a {
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+

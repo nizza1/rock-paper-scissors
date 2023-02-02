@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+
+    <section>
+        <article class="rounds">
+            <p>how many rounds?</p>
+            <select name="rounds" id="rounds">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+
+            </select>
+            <p class="resultsTextTotal"></p>
+        </article>
+
+        <article class="results">
+
+            <p class="user">USER</p>
+            <p class="resultsText"> <span id="userOutput"></span> : <span id="CompOutput"></span></p>
+            <p class="comp">COMP</p>
+        </article>
+
+        <h1>Let's play</h1>
+
+        <div class="select">
+            <button class="buttons" value="rock">✊🏻</button>
+            <button class="buttons" value="paper">🤚🏻</button>
+            <button class="buttons" value="scissors">✌🏻</button>
+        </div>
+        <p>make your move</p>
+
+        <a href="">restart</a>
+    </section>
+
+    <script src="./assets/javascript/main.js"></script>
+    
+</body>
+</html>
