@@ -25,12 +25,6 @@ section {
     background-color: rgb(49, 49, 49);
 }
 
-.rounds {
-    width: 50%;
-    padding: 0.5em;
-    margin: auto;
-}
-
 .resultsTextTotal {
     font-size: 1.5em;
     padding: 0.2em;
